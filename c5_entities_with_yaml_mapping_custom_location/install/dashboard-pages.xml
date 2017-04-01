@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+    <singlepages>
+        <page name="Example" path="/dashboard/example" filename="" pagetype="" description="" package="c5_entities_with_yaml_mapping_custom_location"></page>
+        <page name="Example Entity" path="/dashboard/example/entity" filename="" pagetype="" description="" package="c5_entities_with_yaml_mapping_custom_location"></page>
+        <!-- <page name="Add" path="/dashboard/example/add" filename="/dashboard/example/entity/add.php" pagetype="" description="" package="c5_entities_with_yaml_mapping_custom_location"></page> -->
+        <!-- <page name="Edit" path="/dashboard/example/edit" filename="/dashboard/example/entity/edit.php" pagetype="" description="" package="c5_entities_with_yaml_mapping_custom_location"></page> -->
+    </singlepages>
+</concrete5-cif>

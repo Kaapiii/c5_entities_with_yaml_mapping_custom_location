@@ -1,0 +1,22 @@
+## YAML Template.
+Kaapiii\Example\Entity\Entity:
+    type: entity
+    table: KaapiiiExampleYamlEntities
+    repositoryClass: Kaapiii\Example\Repository\EntityRepository
+#    indexes:
+#        mbtarticles_fulltext:
+#            columns: ["articleNumber", "name", "searchKeywords"]
+#            flags: fulltext
+#    gedmo: 
+#        translation:
+#            locale: locale
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+        active:
+            type: boolean

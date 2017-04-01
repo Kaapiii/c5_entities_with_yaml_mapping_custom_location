@@ -1,0 +1,124 @@
+/* 
+    Author     : markus.liechti
+*/
+
+/*
+.typeahead,
+.tt-query,
+.tt-hint {
+    width: 446px;
+    height: 22px;
+    padding: 8px 12px;
+    font-size: 20px;
+    line-height: 1.5em;
+    border: 2px solid #ccc;
+    outline: none;
+}
+*/
+.typeahead {
+    background-color: #fff;
+}
+
+.tt-dataset-header,
+.tt-empty-message,
+.tt-suggestion{
+    padding: 3px 20px;
+    margin: 0;
+}
+
+.tt-dataset-header{
+    background: #F6F6F6;
+}
+
+
+.typeahead:focus {
+    border: 2px solid #D92B0E;
+}
+
+.tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+#searchParam{
+    width: 356px !important;
+    height: 20px;
+}
+
+.search-button{
+    height: 34px;
+}
+
+.tt-hint {
+    color: #999;
+    width: 356px !important;
+    height: 20px;
+}
+
+.tt-menu {
+    width: 422px;
+    margin-top: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    z-index: 600 !important;
+}
+
+.tt-suggestion {
+    font-size: 12px;
+    line-height: 1.5em;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.tt-dataset-header{
+    font-size: 16px;
+    line-height: 1.5em;
+    border-bottom: 1px solid #888888;
+}
+
+.tt-suggestion.tt-cursor {
+    color: #D92B0E;
+    /*background-color: #D92B0E;*/
+    cursor: pointer;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+/* article suggestion conainer */
+
+.tt-suggestion-container{
+    display: block;
+    overflow: hidden;
+    width: 400px;
+}
+.tt-suggestion-image img{
+    width: 12%;
+    overflow: hidden;
+    float: left;
+}
+.tt-suggestion-info{
+    padding: 0.5rem 0.2rem;
+    margin-right: 1%;
+    cursor:pointer;
+}
+.tt-suggestion{
+    background-color: #FFF;
+    transition: ease 0.2s background-color;
+    cursor:pointer;
+}
+
+.tt-suggestion:hover{
+    background-color: #F6F6F6;
+}
+
+.tt-suggestion-title{
+    font-size: 14px;
+}
+
+.tt-menu h3.tt-dataset-header{
+    margin-top: 0;
+}
